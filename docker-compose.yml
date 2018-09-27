@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  mbaumann.webpush.webui:
+    image: ${DOCKER_REGISTRY}mbaumannwebpush
+    build:
+      context: .
+      dockerfile: MBaumann.WebPush.WebUi/Dockerfile
